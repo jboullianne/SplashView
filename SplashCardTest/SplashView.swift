@@ -44,10 +44,10 @@ struct SplashView: View {
                 
                 withAnimation(.easeInOut(duration: 0.5)) {
                     self.layers[self.layers.count-1].1 = 1.0
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                    /*DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                         self.prevColor = self.layers[0].0
                         self.layers.remove(at: 0)
-                    }
+                    }*/
                 }
             }
     }

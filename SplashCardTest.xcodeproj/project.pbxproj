@@ -14,6 +14,10 @@
 		8C1DEE802453B2730013344D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1DEE7F2453B2730013344D /* Preview Assets.xcassets */; };
 		8C1DEE832453B2730013344D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C1DEE812453B2730013344D /* LaunchScreen.storyboard */; };
 		8C1DEE8E2453B2730013344D /* SplashCardTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1DEE8D2453B2730013344D /* SplashCardTestTests.swift */; };
+		8C1DEE992453B27F0013344D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1DEE982453B27F0013344D /* SplashView.swift */; };
+		8C1DEE9B2453CC2A0013344D /* SplashShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1DEE9A2453CC2A0013344D /* SplashShape.swift */; };
+		8C1DEE9D2454E66C0013344D /* SplashExample01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1DEE9C2454E66C0013344D /* SplashExample01.swift */; };
+		8C1DEE9F2454EF890013344D /* SplashExample02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1DEE9E2454EF890013344D /* SplashExample02.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		8C1DEE892453B2730013344D /* SplashCardTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplashCardTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1DEE8D2453B2730013344D /* SplashCardTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashCardTestTests.swift; sourceTree = "<group>"; };
 		8C1DEE8F2453B2730013344D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C1DEE982453B27F0013344D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		8C1DEE9A2453CC2A0013344D /* SplashShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashShape.swift; sourceTree = "<group>"; };
+		8C1DEE9C2454E66C0013344D /* SplashExample01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashExample01.swift; sourceTree = "<group>"; };
+		8C1DEE9E2454EF890013344D /* SplashExample02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashExample02.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,10 @@
 				8C1DEE812453B2730013344D /* LaunchScreen.storyboard */,
 				8C1DEE842453B2730013344D /* Info.plist */,
 				8C1DEE7E2453B2730013344D /* Preview Content */,
+				8C1DEE982453B27F0013344D /* SplashView.swift */,
+				8C1DEE9A2453CC2A0013344D /* SplashShape.swift */,
+				8C1DEE9C2454E66C0013344D /* SplashExample01.swift */,
+				8C1DEE9E2454EF890013344D /* SplashExample02.swift */,
 			);
 			path = SplashCardTest;
 			sourceTree = "<group>";
@@ -208,6 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C1DEE9D2454E66C0013344D /* SplashExample01.swift in Sources */,
+				8C1DEE9B2453CC2A0013344D /* SplashShape.swift in Sources */,
+				8C1DEE992453B27F0013344D /* SplashView.swift in Sources */,
+				8C1DEE9F2454EF890013344D /* SplashExample02.swift in Sources */,
 				8C1DEE772453B2710013344D /* AppDelegate.swift in Sources */,
 				8C1DEE792453B2710013344D /* SceneDelegate.swift in Sources */,
 				8C1DEE7B2453B2710013344D /* ContentView.swift in Sources */,
